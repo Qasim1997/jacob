@@ -1,39 +1,92 @@
-.App {
-  text-align: center;
+#img {
+  position: absolute;
+  width: 100px;
+  left: 350px;;
+  top:200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#man_img{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  top:150px;
+  right: 100px;
+}
+.welcome_heading{
+  position: absolute;
+color: aliceblue;
+  left: 480px;;
+  top:210px;
+  font-family: 'Playfair Display', serif;}
+
+.data{
+  width: 100%;
+  height: 80px;
+  background-color: #ad8650;
+
+
+}
+.partner_text{
+position: absolute;
+top: 410px;
+}
+h5{
+  color: #566f86;
+  position: absolute;
+
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Playfair Display', serif;
+  left: 480px;;
+  top:245px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+#header_intro{
+  color:red;
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;  font-family: 'Playfair Display', serif; */
+  left: 350px;;
+  top:300px;
+}
+.partner_text{
+ position: absolute;
+ left: 350px;
+ height: 100px; 
+ }
+/* #avatmoney_img{
+  position: absolute;
+  left: 510px;
+
+} */
+#switching{
+  color: #fefeff;
+  margin-left: -200px;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+#block_container > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+#block1{
+  margin-left: -15px;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.carousel-control-next-icon
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+  background-color: #ad8650;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.carousel-control-prev-icon {
+  content: '<';
+  font-size: 55px;
+  color: black;
+  background-color: #ad8650;
+
+}
+.footer-link{
+  color:#fefeff;
 }
