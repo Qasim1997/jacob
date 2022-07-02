@@ -69,8 +69,7 @@ function Car() {
                   Refund
                   <br /> surplus lender Refund surplusto you(if any)
                 </Typography>
-                <Button color="#212121
-" variant="contained">Get Started</Button>
+                <Button variant="contained">Get Started</Button>
               </Grid>
               <Grid item xs={12} md={3}>
                 <img
